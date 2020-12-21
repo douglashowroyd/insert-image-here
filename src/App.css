@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #282c34;
 }
 
 .App-link {
@@ -35,4 +35,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Search{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1em;
+}
+
+.Display-Row{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 1em;
 }
